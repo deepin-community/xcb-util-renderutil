@@ -1,8 +1,34 @@
-xcb-util-renderutil (0.3.9-deepin1) unstable; urgency=medium
+xcb-util-renderutil (0.3.10-1) unstable; urgency=medium
 
-  * Rebuild
+  * Team upload.
 
- -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:06:33 +0800
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Use secure URI in Homepage field.
+  * Bump debhelper from old 9 to 10.
+  * Change priority extra to priority optional.
+  * Update Vcs-* headers to use salsa repository.
+  * Rely on pre-initialized dpkg-architecture variables.
+  * Remove MIA uploader Julien Danjou <acid@debian.org>. Closes: #928588
+
+  [ Timo Aaltonen ]
+  * New upstream release.
+
+  [ Andreas Tille ]
+  * Make watch file safe for different compression types of upstream tarball
+  * d/copyright: Secure URI for source
+  * debhelper-compat = 13
+  * Switch from cdbs to dh
+  * Build-Depends:
+     - s/pkg-config/pkgconf/
+     - Drop unneeded automake tools
+  * Propagate hardening options
+  * d/copyright: License name according to licensecheck
+  * Standards-Version: 4.7.0 (routine-update)
+  * Reorder sequence of d/control fields by cme (routine-update)
+  * Distinct short descriptions
+
+ -- Andreas Tille <tille@debian.org>  Wed, 22 Jan 2025 15:38:02 +0100
 
 xcb-util-renderutil (0.3.9-1) unstable; urgency=low
 
